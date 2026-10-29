@@ -1,0 +1,291 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница — 1" id="fH0owem5shOZxvaFwCKV">
+    <mxGraphModel dx="5877" dy="-1472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bClKLjZsh2pFajYCKCLe-132" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=20;" value="&lt;b&gt;Медикаменте. C4 Context, (To-Be)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="1400" x="-640" y="5130" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="МЕДИКАМЕНТЕ" c4Type="SystemScopeBoundary" c4Application="Целевой состояние" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-133">
+          <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;expand=0;recursiveResize=0;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="920" width="2270" x="-280" y="5450" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Пациент" c4Type="Person" c4Description="Записывается сам, видит только свои данные" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Person]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-134">
+          <mxCell parent="1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#6C6477;strokeColor=#4D4D4D;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1">
+            <mxGeometry height="180" width="200" x="-200" y="5210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Ресепшен" c4Type="Person" c4Description="Ведет расписание и запись" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Person]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-135">
+          <mxCell parent="1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1">
+            <mxGeometry height="180" width="200" x="150" y="5210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Врач" c4Type="Person" c4Description="Ведет медкарты своих пациентов" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Person]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-136">
+          <mxCell parent="1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1">
+            <mxGeometry height="180" width="200" x="450" y="5210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Кассир" c4Type="Person" c4Description="Принимает оплату" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Person]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-137">
+          <mxCell parent="1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1">
+            <mxGeometry height="180" width="200" x="1060" y="5210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Бухгалтер" c4Type="Person" c4Description="Платежи, кадры, зарплата, налоги" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Person]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-138">
+          <mxCell parent="1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1">
+            <mxGeometry height="180" width="200" x="1380" y="5210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Кладовщик" c4Type="Person" c4Description="Учет ТМЦ и закупок" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Person]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-139">
+          <mxCell parent="1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1">
+            <mxGeometry height="180" width="200" x="1700" y="5210" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Бизнес-аналитик" c4Type="Person" c4Description="Отчеты P&amp;L, ABC, модели" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Person]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-140">
+          <mxCell parent="1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1">
+            <mxGeometry height="180" width="200" x="2030" y="5675" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Ответственный за ПДн" c4Type="Person" c4Description="Новая роль. Разбирает алерты и запросы пациентов" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Person]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-141">
+          <mxCell parent="1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1">
+            <mxGeometry height="180" width="200" x="1385" y="6420" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Медицинская информационная система" c4Type="Software System" c4Description="Единая система записи, учета пациентов, медкарт, анализов и оплат. Портал пациента, портал ресепшена, мобильное приложение. Внешний доступ только через API-шлюз, данные разделены по доменам, у полей есть теги" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-142">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;fontSize=11;spacing=6;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="230" width="520" x="100" y="5610" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="ККМ" c4Type="Существующая система" c4Description="Кассовые машины" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-143">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5B7A99;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#46607A;metaEdit=1;fontSize=11;spacing=6;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="150" width="250" x="1040" y="5490" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="1С:Бухгалтерия" c4Type="Существующая система" c4Description="Клиент-серверный режим, доступ только бухгалтерии" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-144">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5B7A99;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#46607A;metaEdit=1;fontSize=11;spacing=6;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="150" width="250" x="1360" y="5490" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="1С:Торговля и склад" c4Type="Существующая система" c4Description="Учет ТМЦ, ПДн не содержит" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-145">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5B7A99;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#46607A;metaEdit=1;fontSize=11;spacing=6;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="150" width="250" x="1680" y="5490" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Exchange" c4Type="Существующая система" c4Description="Корпоративная почта" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-146">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5B7A99;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#46607A;metaEdit=1;fontSize=11;spacing=6;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="150" width="250" x="1680" y="5850" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Аналитическая платформа" c4Type="Software System" c4Description="Data Lake и витрины для BI, ML и LLM. Принимает только псевдонимизированные данные" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-147">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#0B7A8A;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#085C68;metaEdit=1;fontSize=11;spacing=6;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=#F2A900;strokeWidth=3;dashed=1;dashPattern=6 3;" vertex="1">
+            <mxGeometry height="150" width="570" x="1040" y="5690" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="IAM" c4Type="Software System" c4Description="Единый вход, MFA, роли и атрибуты доступа" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-148">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#23854B;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1A6338;metaEdit=1;fontSize=11;spacing=6;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="150" width="250" x="-240" y="6110" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Согласия и запросы" c4Type="Software System" c4Description="Реестр согласий, отзыв, запросы на удаление" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-149">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#23854B;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1A6338;metaEdit=1;fontSize=11;spacing=6;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="150" width="250" x="80" y="6110" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Токенизация и маскирование" c4Type="Software System" c4Description="Токены пациента, псевдонимы и маски" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-150">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#23854B;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1A6338;metaEdit=1;fontSize=11;spacing=6;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=#F2A900;strokeWidth=3;dashed=1;dashPattern=6 3;" vertex="1">
+            <mxGeometry height="150" width="250" x="400" y="6110" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Управление ключами" c4Type="Software System" c4Description="Ключи шифрования отдельно от данных" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-151">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#23854B;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1A6338;metaEdit=1;fontSize=11;spacing=6;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="150" width="250" x="720" y="6110" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Каталог данных" c4Type="Software System" c4Description="Теги и lineage, проверка релизов по тегам" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-152">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#23854B;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1A6338;metaEdit=1;fontSize=11;spacing=6;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=#F2A900;strokeWidth=3;dashed=1;dashPattern=6 3;" vertex="1">
+            <mxGeometry height="150" width="250" x="1040" y="6110" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Аудит и мониторинг" c4Type="Software System" c4Description="Журнал доступа к ПДн, нетипичные действия, алерты" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-153">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#23854B;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1A6338;metaEdit=1;fontSize=11;spacing=6;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="150" width="250" x="1360" y="6110" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="DLP" c4Type="Software System" c4Description="Запрет выноса медданных с рабочих мест" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-154">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#23854B;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1A6338;metaEdit=1;fontSize=11;spacing=6;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="150" width="250" x="1680" y="6110" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Партнеры" c4Type="Внешняя система" c4Description="Клиентские сервисы партнеров" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-155">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;fontSize=11;spacing=6;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="150" width="250" x="-640" y="5490" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Лаборатория" c4Type="Внешняя система" c4Description="Получает токен пациента вместо ФИО" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-156">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;fontSize=11;spacing=6;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="150" width="250" x="-640" y="5690" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Провайдер уведомлений" c4Type="Внешняя система" c4Description="Доставка push и звонков робота" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-157">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;fontSize=11;spacing=6;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="150" width="250" x="-640" y="5890" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Записывается, видит свои данные" c4Technology="HTTPS" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-158">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-134" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.08;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="bClKLjZsh2pFajYCKCLe-142">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Ведет запись" c4Technology="HTTPS" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-159">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-135" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.385;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="bClKLjZsh2pFajYCKCLe-142">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Ведет медкарту" c4Technology="HTTPS" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-160">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-136" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="bClKLjZsh2pFajYCKCLe-142">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Принимает оплату" c4Technology="" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-161">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-137" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;" target="bClKLjZsh2pFajYCKCLe-143">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Ведет учет" c4Technology="" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-162">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-138" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;" target="bClKLjZsh2pFajYCKCLe-144">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Ведет учет" c4Technology="" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-163">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-139" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;" target="bClKLjZsh2pFajYCKCLe-145">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Данные по политике" c4Technology="REST, mTLS" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-164">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-155" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" target="bClKLjZsh2pFajYCKCLe-142">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Направления и результаты" c4Technology="REST, mTLS" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-165">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-156" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.48;entryDx=0;entryDy=0;entryPerimeter=0;" target="bClKLjZsh2pFajYCKCLe-142">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Имя и время приема" c4Technology="HTTPS" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-166">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-142" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="bClKLjZsh2pFajYCKCLe-157">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Услуга и сумма" c4Technology="HTTP-сервис 1С" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-167">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-142" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.217;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="bClKLjZsh2pFajYCKCLe-144">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1485" y="5660" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Чеки" c4Technology="OLE" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-168">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-143" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;" target="bClKLjZsh2pFajYCKCLe-144">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Обмен" c4Technology="OLE" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-169">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-145" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;startArrow=blockThin;startFill=1;" target="bClKLjZsh2pFajYCKCLe-144">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Изменения данных" c4Technology="CDC" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-170">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-142" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" target="bClKLjZsh2pFajYCKCLe-147">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Строит отчеты" c4Technology="HTTPS" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-171">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-140" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;" target="bClKLjZsh2pFajYCKCLe-147">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Роли и атрибуты" c4Technology="OIDC" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-172">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-142" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.06;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="bClKLjZsh2pFajYCKCLe-148">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Проверка согласий" c4Technology="REST" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-173">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-142" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.27;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="bClKLjZsh2pFajYCKCLe-149">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Токены и маски" c4Technology="REST" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-174">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-142" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.55;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.4;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="bClKLjZsh2pFajYCKCLe-150">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Ключи" c4Technology="TLS" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-175">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-142" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.85;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.3;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="bClKLjZsh2pFajYCKCLe-151">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="События доступа" c4Technology="Syslog" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-176">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-142" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="bClKLjZsh2pFajYCKCLe-153">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Псевдонимизация" c4Technology="REST" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-177">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-147" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.05;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="bClKLjZsh2pFajYCKCLe-150">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Теги и lineage" c4Technology="" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-178">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-147" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.218;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="bClKLjZsh2pFajYCKCLe-152">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Журнал доступа" c4Technology="" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-179">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-147" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.66;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.6;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="bClKLjZsh2pFajYCKCLe-153">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Отзыв: найти копии по lineage" c4Technology="" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-180">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-149" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="bClKLjZsh2pFajYCKCLe-152">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="205" y="6320" />
+                <mxPoint x="1165" y="6320" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Проверки" c4Technology="" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-181">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-152" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;" target="bClKLjZsh2pFajYCKCLe-153">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Инциденты" c4Technology="" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-182">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-154" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;" target="bClKLjZsh2pFajYCKCLe-153">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Контроль почты" c4Technology="" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-183">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-154" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="bClKLjZsh2pFajYCKCLe-146">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Алерты" c4Technology="Email, мессенджер" label="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;" id="bClKLjZsh2pFajYCKCLe-184">
+          <mxCell edge="1" parent="1" source="bClKLjZsh2pFajYCKCLe-153" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;metaEdit=1;endSize=12;startSize=12;rounded=0;labelBackgroundColor=#ffffff;jumpStyle=arc;jumpSize=10;" target="bClKLjZsh2pFajYCKCLe-141">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="bClKLjZsh2pFajYCKCLe-186" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23854B;strokeColor=#1A6338;fontColor=#ffffff;fontSize=12;arcSize=10;" value="Новый блок Privacy by Design" vertex="1">
+          <mxGeometry height="50" width="220" x="-280" y="6430" as="geometry" />
+        </mxCell>
+        <mxCell id="bClKLjZsh2pFajYCKCLe-188" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5B7A99;strokeColor=#46607A;fontColor=#ffffff;fontSize=12;arcSize=10;" value="Существующая система" vertex="1">
+          <mxGeometry height="50" width="220" x="-30" y="6430" as="geometry" />
+        </mxCell>
+        <mxCell id="bClKLjZsh2pFajYCKCLe-190" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1061B0;fontColor=#ffffff;fontSize=12;arcSize=10;strokeColor=#F2A900;strokeWidth=3;dashed=1;dashPattern=6 3;" value="С рамкой то что появится через год. Без нее в MVP" vertex="1">
+          <mxGeometry height="50" width="420" x="220" y="6430" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
